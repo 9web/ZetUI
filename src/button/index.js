@@ -2,7 +2,6 @@ import React, { PropTypes } from 'react';
 import classnames from 'classnames';
 
 export default class Button extends React.Component {
-
     static defaultProps = {
         status: 'default'
     }
@@ -18,12 +17,7 @@ export default class Button extends React.Component {
         onClick: PropTypes.func
     }
 
-    constructor(props) {
-        super(props);
-        this.handleClick = this.handleClick.bind(this);
-    }
-
-    handleClick(e) {
+    handleClick = e => {
         this.props.onClick(e);
     }
 
