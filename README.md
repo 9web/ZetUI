@@ -4,6 +4,7 @@ A bunch of react components create by team ZetUED.
 
 ### How to use ?
 
+We haven't publish it to npm, you can install it from github directly.
 ```js
 $ npm install 9web/ZetUI
 ```
@@ -18,8 +19,8 @@ import {Button} from 'zet-ui';
 
 ### Notice
 
-We develop these components with ES6+, you should add it to webpack babel-loader.
-So include is prefer not exclude
+These components developed with ES6+, when use they should transformed by webpack babel-loader.
+When config webpack js loader you should use `include` not `exclude`
 
 ```js
 {
