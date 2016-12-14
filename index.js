@@ -1,5 +1,6 @@
 import Button from './src/button';
 
-export {Button};
+let Components = {Button};
 
-export default {Button};
+export Components;
+export default Components;
