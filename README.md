@@ -33,6 +33,8 @@ When config webpack js loader you should use `include` not `exclude`
 }
 ```
 
+### How to Test ?
+
 
 ### MISC
 
