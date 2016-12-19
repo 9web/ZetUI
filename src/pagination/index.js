@@ -1,11 +1,10 @@
 import React, {Component, PropTypes} from 'react';
 import RcPagination from 'rc-pagination';
+import 'rc-pagination/assets/index.css';
 
 export default class Pagination extends Component {
     static defaultProps = {
-        className: '',
-        prefixCls: 'zet-pagination',
-        selectPrefixCls: 'zet-select'
+        className: ''
     }
 
     static propTypes = {

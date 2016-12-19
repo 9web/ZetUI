@@ -8,7 +8,7 @@ class Root extends Component {
         return (
             <div>
                 <h1>ZetUI Test Page</h1>
-                <Pagination total={10} current={2} />
+                <Pagination total={100} current={2} />
             </div>
         );
     }
