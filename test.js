@@ -1,6 +1,6 @@
 import React, { Component, PropTypes } from 'react';
 import { render } from 'react-dom';
-import {Pagination} from './index.js';
+import {Pagination, Progress} from './index.js';
 
 // Root component defination
 class Root extends Component {
@@ -9,6 +9,12 @@ class Root extends Component {
             <div>
                 <h1>ZetUI Test Page</h1>
                 <Pagination total={100} current={2} />
+
+                <h2>Progress</h2>
+                <div style={{width: '200px'}}>
+                    <Progress type={'line'} percent={10} strokeLinecap={'round'}/>
+                    <Progress type={'circle'} percent={20}  strokeLinecap={'square'} strokeWidth={6} />
+                </div>
             </div>
         );
     }

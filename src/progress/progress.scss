@@ -1,0 +1,29 @@
+@import "~style/themes/variable";
+
+$zet-progress-prefix-cls: $zet-prefix + '-progress';
+.#{$zet-progress-prefix-cls} {
+    &-line {
+        display: inline-block;
+        margin-right: -45px;
+        padding-right: 45px;
+        width: 100%;
+    }
+    &-lc {
+        display: inline-block;
+        margin-left: 5px;
+    }
+
+    &-circle{
+        position: relative;
+    }
+
+    &-cc{
+        position: absolute;
+        display: block;
+        top: 50%;
+        width: 100%;
+        transform: translateY(-50%);
+        text-align: center;
+        font-size: 1.5em;
+    }
+}
