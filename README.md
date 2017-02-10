@@ -17,8 +17,6 @@ import {Button} from 'zet-ui';
 
 * Button
 
-### Notice
-
 
 * Progress
 
@@ -33,8 +31,10 @@ import {Button} from 'zet-ui';
 | showInfo | 是否显示进度数值 | boolean | true  |
 | strokeWidth `(type=line)` | 进度条线的宽度，单位 px | number | 10 |
 | strokeWidth `(type=circle)` | 圆形进度条线的宽度，单位是进度条画布宽度的百分比 | number | 6 |
+| strokeLinecap | 在进度条开始和结束使用的形状，值可以是  square 或 round  | number | round |
 | width `(type=circle)` | 圆形进度条画布宽度，单位 px | number | 132 |
 
+### Notice
 
 These components developed with ES6+, when use they should transformed by webpack babel-loader.
 When config webpack js loader you should use `include` not `exclude`
