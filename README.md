@@ -20,19 +20,19 @@ import {Button} from 'zet-ui';
 
 * Progress
 
-### API
+    ###### API
 
-| 属性      | 说明           | 类型     | 默认值         |
-|----------|---------------|----------|---------------|
-| type     | 类型，可选 `line` `circle` | string   | line      |
-| percent  | 百分比 | number | 0 |
-| format   | 内容的模板函数 | function(percent)   | `percent => percent + '%'` |
-| status   | 状态，可选：`success` `exception` `normal` | string   | - |
-| showInfo | 是否显示进度数值 | boolean | true  |
-| strokeWidth `(type=line)` | 进度条线的宽度，单位 px | number | 10 |
-| strokeWidth `(type=circle)` | 圆形进度条线的宽度，单位是进度条画布宽度的百分比 | number | 6 |
-| strokeLinecap | 在进度条开始和结束使用的形状，值可以是  square 或 round  | number | round |
-| width `(type=circle)` | 圆形进度条画布宽度，单位 px | number | 132 |
+    | 属性      | 说明           | 类型     | 默认值         |
+    |----------|---------------|----------|---------------|
+    | type     | 类型，可选 `line` `circle` | string   | line      |
+    | percent  | 百分比 | number | 0 |
+    | format   | 内容的模板函数 | function(percent)   | `percent => percent + '%'` |
+    | status   | 状态，可选：`success` `exception` `normal` | string   | - |
+    | showInfo | 是否显示进度数值 | boolean | true  |
+    | strokeWidth `(type=line)` | 进度条线的宽度，单位 px | number | 10 |
+    | strokeWidth `(type=circle)` | 圆形进度条线的宽度，单位是进度条画布宽度的百分比 | number | 6 |
+    | strokeLinecap | 在进度条开始和结束使用的形状，值可以是  square 或 round  | number | round |
+    | width `(type=circle)` | 圆形进度条画布宽度，单位 px | number | 132 |
 
 ### Notice
 
