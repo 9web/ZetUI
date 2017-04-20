@@ -1,4 +1,4 @@
-@import "~style/themes/variable";
+@import "../style/themes/variable";
 
 $zet-progress-prefix-cls: $zet-prefix + '-progress';
 .#{$zet-progress-prefix-cls} {
